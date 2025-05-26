@@ -10,7 +10,7 @@ import datetime
 from fredapi import Fred
 
 st.set_page_config(
-    page_title="MSBA350 - Assignment 2 - G4",
+    page_title="Stocks and Crypto Analysis",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded")
@@ -163,15 +163,6 @@ with st.sidebar:
             ax.legend()
             ax.grid(True, alpha=0.3)
             return fig
-       
-    
-    st.markdown("""# Group 4
-    Nour Abdelghani
-    Lea Al Fata
-    Jad Koubeisy
-    Nadim Kawkabany""")
-
-
 
 # Define thresholds for each cryptocurrency
 # Previous code remains the same until the thresholds dictionary
