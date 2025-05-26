@@ -30,7 +30,7 @@ crypto = ['SOL', 'LTC', 'ETH']
 
 
 with st.sidebar:
-    st.title("MSBA350 - Assignment 2")
+    st.title("Stocks and Crypto Analysis")
     select_stock_or_crypto = st.selectbox("Select if Stocks or Cryptocurrencies",("Stocks","Cryptocurrencies"))
     if select_stock_or_crypto == "Stocks":
         selected_ticker = st.multiselect("Select Stocks", tickers, default=tickers) 
